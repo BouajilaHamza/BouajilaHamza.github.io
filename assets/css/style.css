@@ -337,6 +337,42 @@ a:hover {
   gap: 12px;
 }
 
+.papers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.paper {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius);
+  padding: 14px;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.paper:hover {
+  transform: translateY(-2px);
+  border-color: rgba(124, 92, 255, 0.55);
+  background: rgba(124, 92, 255, 0.04);
+}
+
+.paper-title {
+  font-weight: 760;
+  letter-spacing: -0.01em;
+  font-size: 1.05rem;
+}
+
+.paper-meta {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.paper-summary {
+  margin: 10px 0 0;
+  color: rgba(231, 237, 246, 0.85);
+}
+
 .skill {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.02);

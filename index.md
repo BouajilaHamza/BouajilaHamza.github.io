@@ -11,8 +11,10 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
       <span>Hamza Bouajila</span>
     </div>
     <nav class="nav" aria-label="Primary">
-      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
       <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -47,10 +49,10 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
     </div>
   </section>
 
-  <section id="work" class="section" aria-label="Experience">
-    <h2 class="section-title">Experience Timeline</h2>
+  <section id="projects" class="section" aria-label="Projects">
+    <h2 class="section-title">Selected Projects</h2>
     <p class="section-subtitle">
-      Selected work across Arabic NLP, LLM efficiency, and embodied learning—focused on measurable outcomes.
+      A timeline of work across Arabic NLP, LLM efficiency, and embodied learning—built to ship, measure, and iterate.
     </p>
 
     <div class="timeline">
@@ -91,6 +93,49 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
     </div>
   </section>
 
+  <section id="research" class="section" aria-label="Research">
+    <h2 class="section-title">Research</h2>
+    <p class="section-subtitle">
+      Research interests: LLM efficiency (distillation/serving), multilingual Arabic NLP, and embodied VLA systems.
+      This section is structured like a lab page: concise statements, links to artifacts, and reproducible code.
+    </p>
+
+    <div class="papers" role="list">
+      {%- for r in site.data.research -%}
+      <article class="paper" role="listitem">
+        <div class="paper-top">
+          <div>
+            <div class="paper-title">{{ r.title }}</div>
+            <div class="paper-meta">{{ r.authors }} · {{ r.year }} · {{ r.status }}</div>
+          </div>
+        </div>
+
+        <p class="paper-summary">{{ r.summary }}</p>
+
+        {%- if r.tags and r.tags.size > 0 -%}
+        <div class="tags" aria-label="Tags">
+          {%- for t in r.tags -%}
+          <span class="tag">{{ t }}</span>
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
+
+        <div class="actions" aria-label="Links">
+          {%- if r.paper_url and r.paper_url != "" -%}
+          <a class="btn" href="{{ r.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a>
+          {%- endif -%}
+          {%- if r.slides_url and r.slides_url != "" -%}
+          <a class="btn secondary" href="{{ r.slides_url }}" target="_blank" rel="noopener noreferrer">Slides</a>
+          {%- endif -%}
+          {%- if r.code_url and r.code_url != "" -%}
+          <a class="btn secondary" href="{{ r.code_url }}" target="_blank" rel="noopener noreferrer">Code</a>
+          {%- endif -%}
+        </div>
+      </article>
+      {%- endfor -%}
+    </div>
+  </section>
+
   <section id="skills" class="section" aria-label="Skills">
     <h2 class="section-title">Skills</h2>
     <p class="section-subtitle">Tools I ship with—kept sharp for real systems.</p>
@@ -119,6 +164,38 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
       <div class="skill" style="--level: 0.86">
         <div class="skill-top"><strong>LLM Efficiency</strong><small>distill · export · serve</small></div>
         <div class="bar"><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section" aria-label="Services">
+    <h2 class="section-title">Freelance Services</h2>
+    <p class="section-subtitle">
+      Senior-level execution for teams that need LLM systems that are fast, correct, and maintainable.
+    </p>
+
+    <div class="contact">
+      <div class="card">
+        <h3 style="margin: 0 0 8px;">What I deliver</h3>
+        <ul class="meta" style="margin: 10px 0 0; padding-left: 18px;">
+          <li>LLM inference optimization (distillation, quantization readiness, export, profiling)</li>
+          <li>Evaluation &amp; monitoring (golden sets, regressions, metrics you can trust)</li>
+          <li>Arabic / multilingual NLP systems (normalization, dialect ID, translation pipelines)</li>
+          <li>Embodied learning tooling (simulation loops, VLA fine-tuning, reproducible baselines)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 style="margin: 0 0 8px;">How projects run</h3>
+        <ul class="meta" style="margin: 10px 0 0; padding-left: 18px;">
+          <li>Clear scope → measurable success criteria → weekly milestones</li>
+          <li>Readable code, tests where it matters, and docs your team can maintain</li>
+          <li>Pragmatic delivery: no fluff, no overengineering</li>
+        </ul>
+        <div class="actions" style="margin-top: 14px;">
+          <a class="btn" href="#contact">Start a project</a>
+          <a class="btn secondary" href="mailto:REPLACE_ME@example.com">Email</a>
+        </div>
       </div>
     </div>
   </section>
@@ -167,8 +244,10 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
     <footer class="footer" aria-label="Footer">
       <div class="fine">© {{ "now" | date: "%Y" }} Hamza Bouajila. Built for speed.</div>
       <div class="mini" aria-label="Footer links">
-        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
         <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </div>
     </footer>

@@ -19,6 +19,6 @@
     TunBERT Distillation
   </text>
   <text x="70" y="128" fill="rgba(231,237,246,0.68)" font-family="ui-sans-serif, system-ui" font-size="16">
-    latency “ " accuracy H 98%
+    latency ? • accuracy ? 98%
   </text>
 </svg>

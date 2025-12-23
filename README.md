@@ -8,6 +8,8 @@ Minimal, dark-themed portfolio built for GitHub Pages with Jekyll.
 - **Projects**: edit `_data/projects.yml`
   - Add a demo GIF/link via `demo_url` (optional)
   - Point `repo_url` to the real repository
+- **Research**: edit `_data/research.yml`
+  - Add `paper_url` (arXiv/DOI) and `slides_url` if you have them
 
 ## Run locally (optional)
 

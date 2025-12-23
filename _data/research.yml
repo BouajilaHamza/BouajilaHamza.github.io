@@ -1,0 +1,49 @@
+- title: "Distilling TunBERT for Low-Latency Arabic NLP"
+  status: "Technical report / preprint"
+  year: "2024"
+  authors: "Hamza Bouajila"
+  summary: "A production-focused distillation recipe for Arabic BERT variants: teacher–student training, evaluation, and deployment-friendly exports."
+  tags: ["Distillation", "Arabic NLP", "Efficiency"]
+  paper_url: ""
+  code_url: "https://github.com/REPLACE_ME/tunbert-distillation"
+  slides_url: ""
+
+- title: "Fine-tuning Vision–Language–Action Policies (FastVLA-style)"
+  status: "Project note"
+  year: "2024"
+  authors: "Hamza Bouajila"
+  summary: "Training and evaluation notes for VLA policies with attention to data curation, stability, and real-world control constraints."
+  tags: ["Embodied AI", "VLA", "Robotics"]
+  paper_url: ""
+  code_url: "https://github.com/REPLACE_ME/fastvla-finetune"
+  slides_url: ""
+
+- title: "Simulation Suite for Franka Panda Manipulation in PyBullet"
+  status: "Reproducible benchmark"
+  year: "2023–2024"
+  authors: "Hamza Bouajila"
+  summary: "A fast simulation/evaluation harness for manipulation tasks with clean metrics, seeds, and RL baselines."
+  tags: ["Simulation", "RL", "Evaluation"]
+  paper_url: ""
+  code_url: "https://github.com/REPLACE_ME/franka-panda-sim"
+  slides_url: ""
+
+- title: "Arabic Dialect Identification: Robust Preprocessing + Error Analysis"
+  status: "Project note"
+  year: "2023"
+  authors: "Hamza Bouajila"
+  summary: "Dialect ID with careful normalization and analysis; emphasis on calibration and real-world noise."
+  tags: ["Arabic NLP", "Classification", "Multilingual"]
+  paper_url: ""
+  code_url: "https://github.com/REPLACE_ME/arabic-dialect-id"
+  slides_url: ""
+
+- title: "Arabic ↔ English Translation Pipeline Engineering"
+  status: "Engineering write-up"
+  year: "2022–2023"
+  authors: "Hamza Bouajila"
+  summary: "Throughput-oriented translation pipelines: batching, caching, and deterministic text normalization for consistent outputs."
+  tags: ["Seq2Seq", "Inference", "MLOps"]
+  paper_url: ""
+  code_url: "https://github.com/REPLACE_ME/arabic-translation-pipeline"
+  slides_url: ""
