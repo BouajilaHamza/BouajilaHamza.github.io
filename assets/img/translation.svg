@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1623" />
+      <stop offset="1" stop-color="#0B0F17" />
+    </linearGradient>
+    <linearGradient id="g" x1="120" y1="110" x2="560" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#30D6C9" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+  <rect width="680" height="440" rx="28" fill="url(#bg)" />
+  <rect x="34" y="34" width="612" height="372" rx="22" stroke="rgba(231,237,246,0.18)" />
+  <rect x="120" y="170" width="200" height="90" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(231,237,246,0.16)"/>
+  <rect x="360" y="170" width="200" height="90" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(231,237,246,0.16)"/>
+  <path d="M330 215h30" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 200l20 15-20 15" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="95" fill="rgba(231,237,246,0.92)" font-family="ui-sans-serif, system-ui" font-size="26" font-weight="700">
+    Arabic Translation Pipelines
+  </text>
+  <text x="70" y="128" fill="rgba(231,237,246,0.68)" font-family="ui-sans-serif, system-ui" font-size="16">
+    batching • caching • robust preprocessing
+  </text>
+  <text x="150" y="226" fill="rgba(231,237,246,0.72)" font-family="ui-sans-serif, system-ui" font-size="18" font-weight="700">
+    AR
+  </text>
+  <text x="392" y="226" fill="rgba(231,237,246,0.72)" font-family="ui-sans-serif, system-ui" font-size="18" font-weight="700">
+    EN
+  </text>
+</svg>

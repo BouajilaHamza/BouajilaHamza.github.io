@@ -1,0 +1,87 @@
+- title: "Distill TunBERT (Arabic LLM Efficiency)"
+  period: "2025"
+  thumbnail: "/assets/img/tunbert.svg"
+  blurb: "Distilled TunBERT to reduce inference cost while retaining near-teacher quality; structured for reproducible experiments."
+  highlights:
+    - "Teacher–student distillation workflow"
+    - "Evaluation-first: accuracy/latency trade-offs"
+  tags: ["PyTorch", "Hugging Face", "Arabic NLP", "Efficiency"]
+  repo_url: "https://github.com/BouajilaHamza/distill-tunbert"
+  demo_url: ""
+
+- title: "FastVLA (Resource-Efficient VLA Fine-tuning)"
+  period: "2025"
+  thumbnail: "/assets/img/fastvla.svg"
+  blurb: "Optimized training/fine-tuning for vision–language–action models, designed for limited-resource environments."
+  highlights:
+    - "Training stability + practical defaults"
+    - "Built for iteration speed"
+  tags: ["PyTorch", "VLA", "Robotics", "Training"]
+  repo_url: "https://github.com/BouajilaHamza/FastVLA"
+  demo_url: ""
+
+- title: "SmolVLA on Franka Panda (PyBullet Simulation)"
+  period: "2025"
+  thumbnail: "/assets/img/franka.svg"
+  blurb: "Fine-tuning, evaluation, and real-time simulation of a VLA policy on Franka Panda with PyBullet + panda-gym."
+  highlights:
+    - "Closed-loop simulation + evaluation"
+    - "Hugging Face tooling for reproducibility"
+  tags: ["PyBullet", "PyTorch", "Embodied AI", "Evaluation"]
+  repo_url: "https://github.com/BouajilaHamza/panda-smolvla-simulation"
+  demo_url: ""
+
+- title: "Franka Chess Game (Two Arms in Simulation)"
+  period: "2025"
+  thumbnail: "/assets/img/franka.svg"
+  blurb: "Two Franka Panda arms playing chess in PyBullet simulation—control, coordination, and reliable physics loops."
+  highlights:
+    - "Simulation-first experimentation"
+    - "Embodied systems debugging"
+  tags: ["PyBullet", "Robotics", "Simulation"]
+  repo_url: "https://github.com/BouajilaHamza/franka-chess-game"
+  demo_url: ""
+
+- title: "Tunisia ↔ MSA Parallel Corpus"
+  period: "2025"
+  thumbnail: "/assets/img/corpus.svg"
+  blurb: "Parallel data tooling for Tunisian Arabic and MSA—built for downstream translation and dialect research."
+  highlights:
+    - "Dataset organization and preprocessing"
+    - "Reproducible splits"
+  tags: ["Arabic NLP", "Data", "Corpus", "Multilingual"]
+  repo_url: "https://github.com/BouajilaHamza/Tunisia-msa-parallel-corpus"
+  demo_url: ""
+
+- title: "EN ↔ TN Machine Translation"
+  period: "2025"
+  thumbnail: "/assets/img/translation.svg"
+  blurb: "Machine translation experiments and pipeline work for English ↔ Tunisian Arabic."
+  highlights:
+    - "Text normalization and quality checks"
+    - "Inference-ready structure"
+  tags: ["Translation", "Arabic NLP", "Seq2Seq"]
+  repo_url: "https://github.com/BouajilaHamza/en-tn-machine-translation"
+  demo_url: ""
+
+- title: "spaCy_tun (Tunisian Arabic NLP Toolkit)"
+  period: "2025"
+  thumbnail: "/assets/img/corpus.svg"
+  blurb: "Tunisian Arabic NLP utilities and resources for spaCy-style workflows."
+  highlights:
+    - "Language tooling for real text"
+    - "Reusable preprocessing components"
+  tags: ["Python", "spaCy", "Arabic NLP"]
+  repo_url: "https://github.com/BouajilaHamza/spaCy_tun"
+  demo_url: ""
+
+- title: "Site AI Assistant Integration (Multilingual + Eval)"
+  period: "2025"
+  thumbnail: "/assets/img/assistant.svg"
+  blurb: "AI assistant for website integration with knowledge base management, multilingual detection, and validation metrics."
+  highlights:
+    - "Modular backend architecture"
+    - "Evaluation hooks + experiment tracking"
+  tags: ["LLMs", "Multilingual", "Evaluation", "Python"]
+  repo_url: "https://github.com/BouajilaHamza/site-ai-assistant-integration"
+  demo_url: ""

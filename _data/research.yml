@@ -1,0 +1,59 @@
+- title: "Distilling TunBERT for Low-Latency Arabic NLP"
+  status: "Technical report / preprint"
+  year: "2024"
+  authors: "Hamza Bouajila"
+  summary: "A production-focused distillation recipe for Arabic BERT variants: teacher–student training, evaluation, and deployment-friendly exports."
+  tags: ["Distillation", "Arabic NLP", "Efficiency"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/distill-tunbert"
+  slides_url: ""
+
+- title: "Fine-tuning Vision–Language–Action Policies (FastVLA-style)"
+  status: "Project note"
+  year: "2024"
+  authors: "Hamza Bouajila"
+  summary: "Training and evaluation notes for VLA policies with attention to data curation, stability, and real-world control constraints."
+  tags: ["Embodied AI", "VLA", "Robotics"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/FastVLA"
+  slides_url: ""
+
+- title: "Simulation + Evaluation on Franka Panda (PyBullet)"
+  status: "Reproducible benchmark"
+  year: "2025"
+  authors: "Hamza Bouajila"
+  summary: "Fine-tuning, evaluation, and real-time simulation of a VLA policy on Franka Panda with clean metrics and reproducible runs."
+  tags: ["Simulation", "RL", "Evaluation"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/panda-smolvla-simulation"
+  slides_url: ""
+
+- title: "Arabic Data & Tooling (Corpus + spaCy workflows)"
+  status: "Dataset/tooling"
+  year: "2025"
+  authors: "Hamza Bouajila"
+  summary: "Parallel data and reusable preprocessing tooling for Tunisian Arabic / MSA workflows."
+  tags: ["Arabic NLP", "Data", "Tooling"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/Tunisia-msa-parallel-corpus"
+  slides_url: ""
+
+- title: "Arabic Dialect Identification: Robust Preprocessing + Error Analysis"
+  status: "Project note"
+  year: "2023"
+  authors: "Hamza Bouajila"
+  summary: "Dialect ID with careful normalization and analysis; emphasis on calibration and real-world noise."
+  tags: ["Arabic NLP", "Classification", "Multilingual"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/spaCy_tun"
+  slides_url: ""
+
+- title: "English ↔ Tunisian Arabic Machine Translation"
+  status: "Engineering write-up"
+  year: "2025"
+  authors: "Hamza Bouajila"
+  summary: "Machine translation experiments and pipeline engineering with an emphasis on robust preprocessing and consistent inference outputs."
+  tags: ["Seq2Seq", "Inference", "MLOps"]
+  paper_url: ""
+  code_url: "https://github.com/BouajilaHamza/en-tn-machine-translation"
+  slides_url: ""
