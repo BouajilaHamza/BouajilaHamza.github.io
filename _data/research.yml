@@ -2,8 +2,8 @@
   status: "Technical report / preprint"
   year: "2024"
   authors: "Hamza Bouajila"
-  summary: "A production-focused distillation recipe for Arabic BERT variants: teacher–student training, evaluation, and deployment-friendly exports."
-  tags: ["Distillation", "Arabic NLP", "Efficiency"]
+  summary: "Distillation case study: achieved ~2× faster inference, then performed dataset/domain mismatch analysis after accuracy degradation—emphasis on evaluation methodology and mitigation attempts."
+  tags: ["Distillation", "Arabic NLP", "Efficiency", "Dataset Shift", "Evaluation"]
   paper_url: ""
   code_url: "https://github.com/BouajilaHamza/distill-tunbert"
   slides_url: ""

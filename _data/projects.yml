@@ -1,11 +1,11 @@
 - title: "Distill TunBERT (Arabic LLM Efficiency)"
   period: "2025"
   thumbnail: "/assets/img/tunbert.svg"
-  blurb: "Distilled TunBERT to reduce inference cost while retaining near-teacher quality; structured for reproducible experiments."
+  blurb: "Achieved ~2× faster inference, but accuracy degraded due to dataset/domain mismatch—strong case study in dataset shift analysis and evaluation-driven iteration."
   highlights:
     - "Teacher–student distillation workflow"
-    - "Evaluation-first: accuracy/latency trade-offs"
-  tags: ["PyTorch", "Hugging Face", "Arabic NLP", "Efficiency"]
+    - "Diagnosed data mismatch and quantified accuracy/latency trade-offs"
+  tags: ["PyTorch", "Hugging Face", "Arabic NLP", "Efficiency", "Evaluation"]
   repo_url: "https://github.com/BouajilaHamza/distill-tunbert"
   demo_url: ""
 
