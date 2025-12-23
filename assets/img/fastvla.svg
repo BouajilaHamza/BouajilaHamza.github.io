@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1623" />
+      <stop offset="1" stop-color="#0B0F17" />
+    </linearGradient>
+    <linearGradient id="g" x1="120" y1="90" x2="560" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30D6C9" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="680" height="440" rx="28" fill="url(#bg)" />
+  <rect x="34" y="34" width="612" height="372" rx="22" stroke="rgba(231,237,246,0.18)" />
+  <rect x="120" y="150" width="440" height="160" rx="22" fill="rgba(255,255,255,0.03)" stroke="rgba(231,237,246,0.16)"/>
+  <path d="M160 268h110l18-38 20 64 18-40h124" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="95" fill="rgba(231,237,246,0.92)" font-family="ui-sans-serif, system-ui" font-size="26" font-weight="700">
+    FastVLA Fine-tuning
+  </text>
+  <text x="70" y="128" fill="rgba(231,237,246,0.68)" font-family="ui-sans-serif, system-ui" font-size="16">
+    vision-language-action policies
+  </text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1623" />
+      <stop offset="1" stop-color="#0B0F17" />
+    </linearGradient>
+    <linearGradient id="g" x1="110" y1="100" x2="570" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30D6C9" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+  <rect width="680" height="440" rx="28" fill="url(#bg)" />
+  <rect x="34" y="34" width="612" height="372" rx="22" stroke="rgba(231,237,246,0.18)" />
+  <path d="M120 300c40-74 92-112 156-112 58 0 102 25 132 74 34 57 78 84 132 84" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+  <text x="70" y="95" fill="rgba(231,237,246,0.92)" font-family="ui-sans-serif, system-ui" font-size="26" font-weight="700">
+    Arabic Dialect ID
+  </text>
+  <text x="70" y="128" fill="rgba(231,237,246,0.68)" font-family="ui-sans-serif, system-ui" font-size="16">
+    robust classification across dialects
+  </text>
+  <text x="70" y="210" fill="rgba(231,237,246,0.55)" font-family="ui-sans-serif, system-ui" font-size="44" font-weight="700">
+    'D91(J)
+  </text>
+</svg>

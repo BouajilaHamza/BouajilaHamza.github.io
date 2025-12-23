@@ -1,0 +1,17 @@
+title: "Hamza Bouajila"
+description: "AI Engineer specializing in Large Language Models and Embodied Systems"
+url: ""
+baseurl: ""
+
+# Build
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

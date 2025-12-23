@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1623" />
+      <stop offset="1" stop-color="#0B0F17" />
+    </linearGradient>
+    <linearGradient id="g" x1="130" y1="110" x2="560" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#30D6C9" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+  <rect width="680" height="440" rx="28" fill="url(#bg)" />
+  <rect x="34" y="34" width="612" height="372" rx="22" stroke="rgba(231,237,246,0.18)" />
+  <g stroke="url(#g)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 290l70-70 60 20 70-70" />
+    <path d="M420 170l40 60 60 10" />
+    <path d="M220 290l-40-10" />
+  </g>
+  <g fill="rgba(231,237,246,0.14)" stroke="rgba(231,237,246,0.18)">
+    <circle cx="220" cy="290" r="14" />
+    <circle cx="290" cy="220" r="14" />
+    <circle cx="350" cy="240" r="14" />
+    <circle cx="420" cy="170" r="14" />
+    <circle cx="460" cy="230" r="14" />
+    <circle cx="520" cy="240" r="14" />
+  </g>
+  <text x="70" y="95" fill="rgba(231,237,246,0.92)" font-family="ui-sans-serif, system-ui" font-size="26" font-weight="700">
+    Franka Panda Simulations
+  </text>
+  <text x="70" y="128" fill="rgba(231,237,246,0.68)" font-family="ui-sans-serif, system-ui" font-size="16">
+    PyBullet + RL for manipulation
+  </text>
+</svg>
