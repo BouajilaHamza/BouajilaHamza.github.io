@@ -4,7 +4,7 @@ Minimal, dark-themed portfolio built for GitHub Pages with Jekyll.
 
 ## Edit content
 
-- **Hero links**: update the `REPLACE_ME` placeholders in `index.md`
+- **Hero links**: update links in `index.md`
 - **Projects**: edit `_data/projects.yml`
   - Add a demo GIF/link via `demo_url` (optional)
   - Point `repo_url` to the real repository

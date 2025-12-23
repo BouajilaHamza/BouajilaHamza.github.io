@@ -31,7 +31,7 @@
         `${message}\n\n---\nFrom: ${name || "Anonymous"}\nEmail: ${email || "n/a"}\n`
       );
 
-      const to = form.getAttribute("data-mailto") || "hamza@example.com";
+      const to = form.getAttribute("data-mailto") || "bouajilahamza@outlook.com";
       window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
     });
   }

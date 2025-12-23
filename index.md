@@ -32,17 +32,17 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
       <aside class="hero-card" aria-label="Links">
         <h2>Contact</h2>
         <div class="links">
-          <a class="pill" href="https://github.com/REPLACE_ME" target="_blank" rel="noopener noreferrer">
+          <a class="pill" href="https://github.com/BouajilaHamza" target="_blank" rel="noopener noreferrer">
             <span class="label">GitHub</span>
-            <span class="value">@REPLACE_ME</span>
+            <span class="value">@BouajilaHamza</span>
           </a>
-          <a class="pill" href="mailto:REPLACE_ME@example.com">
+          <a class="pill" href="mailto:bouajilahamza@outlook.com">
             <span class="label">Email</span>
-            <span class="value">REPLACE_ME@example.com</span>
+            <span class="value">bouajilahamza@outlook.com</span>
           </a>
-          <a class="pill" href="https://www.linkedin.com/in/REPLACE_ME/" target="_blank" rel="noopener noreferrer">
-            <span class="label">LinkedIn</span>
-            <span class="value">/in/REPLACE_ME</span>
+          <a class="pill" href="https://www.researchgate.net/profile/Hamza-Bouajila/research" target="_blank" rel="noopener noreferrer">
+            <span class="label">ResearchGate</span>
+            <span class="value">Research</span>
           </a>
         </div>
       </aside>
@@ -99,6 +99,11 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
       Research interests: LLM efficiency (distillation/serving), multilingual Arabic NLP, and embodied VLA systems.
       This section is structured like a lab page: concise statements, links to artifacts, and reproducible code.
     </p>
+    <div class="actions" style="margin-top: -6px; margin-bottom: 14px;">
+      <a class="btn secondary" href="https://www.researchgate.net/profile/Hamza-Bouajila/research" target="_blank" rel="noopener noreferrer"
+        >ResearchGate profile</a
+      >
+    </div>
 
     <div class="papers" role="list">
       {%- for r in site.data.research -%}
@@ -194,7 +199,7 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
         </ul>
         <div class="actions" style="margin-top: 14px;">
           <a class="btn" href="#contact">Start a project</a>
-          <a class="btn secondary" href="mailto:REPLACE_ME@example.com">Email</a>
+          <a class="btn secondary" href="mailto:bouajilahamza@outlook.com">Email</a>
         </div>
       </div>
     </div>
@@ -212,13 +217,13 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
           deployment time.
         </p>
         <div class="actions" style="margin-top: 14px;">
-          <a class="btn" href="mailto:REPLACE_ME@example.com">Email me</a>
-          <a class="btn secondary" href="https://github.com/REPLACE_ME" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn" href="mailto:bouajilahamza@outlook.com">Email me</a>
+          <a class="btn secondary" href="https://github.com/BouajilaHamza" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
 
       <div class="card">
-        <form data-contact-form data-mailto="REPLACE_ME@example.com" action="">
+        <form data-contact-form data-mailto="bouajilahamza@outlook.com" action="">
           <label for="name">Name</label>
           <input id="name" name="name" autocomplete="name" />
 
@@ -230,9 +235,8 @@ description: "Hamza Bouajila — AI Engineer specializing in Large Language Mode
 
           <div class="actions" style="margin-top: 14px;">
             <button class="btn" type="submit">Send</button>
-            <a class="btn secondary" href="https://www.linkedin.com/in/REPLACE_ME/" target="_blank" rel="noopener noreferrer"
-              >LinkedIn</a
-            >
+            <a class="btn secondary" href="https://www.researchgate.net/profile/Hamza-Bouajila/research" target="_blank" rel="noopener noreferrer"
+              >ResearchGate</a>
           </div>
           <p class="meta" style="margin: 10px 0 0;">
             Tip: set a Formspree endpoint by replacing the form <code>action</code> attribute.
